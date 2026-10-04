@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShortForge · Conectando</title>
+<style>
+  body { margin: 0; background: #0f0f14; color: #ececf1; font: 16px/1.6 system-ui, sans-serif; display: grid; place-items: center; height: 100vh; }
+  p { color: #a0a0ad; }
+</style>
+</head>
+<body>
+<main style="text-align:center">
+  <h2>Conectando ao ShortForge…</h2>
+  <p>Se nada acontecer, volte pro app e tente de novo.</p>
+</main>
+<script>
+  // O TikTok devolve o login aqui (endereço https verificado); o ShortForge espera no próprio PC.
+  location.replace('http://127.0.0.1:47231/callback/' + location.search)
+</script>
+</body>
+</html>
