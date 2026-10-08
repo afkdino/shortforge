@@ -3,21 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShortForge · Termos de Uso</title>
-<style>
-  :root { --bg: #0f0f14; --fg: #ececf1; --muted: #a0a0ad; --accent: #cc92ff; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
-  h1 { font-size: 2rem; margin: 0 0 8px; }
-  h2 { font-size: 1.15rem; margin-top: 32px; }
-  p, li { color: var(--muted); }
-  a { color: var(--accent); }
-</style>
+<title>Termos de Uso · ShortForge</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="alternate" hreflang="en" href="terms.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<main>
+<header class="topo">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/icon-192.png" alt="" width="28" height="28">ShortForge</a>
+    <nav class="nav" aria-label="Páginas">
+      <a href="index.html">Início</a>
+      <a href="privacidade.html">Privacidade</a>
+      <a href="termos.html">Termos</a>
+    </nav>
+    <a class="idioma" href="terms.html" hreflang="en">English</a>
+  </div>
+</header>
+
+<main class="doc">
   <h1>Termos de Uso</h1>
-  <p>Última atualização: 4 de outubro de 2026.</p>
+  <p class="data">Última atualização: 8 de outubro de 2026.</p>
   <p>O ShortForge é um aplicativo de computador (Windows) para criadores de conteúdo editarem os vídeos das próprias lives e publicarem nas próprias contas. Ao conectar uma conta ao ShortForge, você concorda com estes termos.</p>
 
   <h2>Uso do app</h2>
@@ -29,11 +40,14 @@
 
   <h2>Contas conectadas</h2>
   <ul>
-    <li>YouTube: o app envia e agenda os vídeos escolhidos e lê o nome e os números do canal.</li>
-    <li>TikTok: o app lê as informações básicas do perfil e publica no perfil os vídeos escolhidos, com a privacidade, as interações (comentários, dueto, stitch) e a declaração de conteúdo comercial que o usuário escolhe na hora de postar. Se a conta não autorizou a publicação direta, o vídeo vai pro rascunho, onde o usuário finaliza pelo próprio TikTok.</li>
-    <li>Instagram: o app lê as informações básicas da conta e publica os Reels escolhidos.</li>
+    <li><strong>YouTube:</strong> o app envia e agenda os vídeos escolhidos, lê o nome e os números do canal e lê os relatórios do YouTube Analytics para o assistente de estratégia.</li>
+    <li><strong>TikTok:</strong> o app lê as informações básicas do perfil e publica no perfil os vídeos escolhidos, com a privacidade, as interações (comentários, dueto, stitch) e a declaração de conteúdo comercial que o usuário escolhe na hora de postar. Se a conta não autorizou a publicação direta, o vídeo vai pro rascunho, onde o usuário finaliza pelo próprio TikTok.</li>
+    <li><strong>Instagram:</strong> o app lê as informações básicas da conta e publica os Reels escolhidos.</li>
   </ul>
   <p>O uso dessas contas também segue os termos de cada plataforma: <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>, <a href="https://www.tiktok.com/legal/terms-of-service">Termos de Serviço do TikTok</a> e <a href="https://help.instagram.com/581066165581870">Termos de Uso do Instagram</a>.</p>
+
+  <h2>Recursos de IA</h2>
+  <p>As sugestões de momentos, os textos das postagens e as sugestões de estratégia são feitos com serviços de IA (Google Gemini e Anthropic Claude). O usuário revisa tudo antes de publicar; as sugestões podem conter erros.</p>
 
   <h2>Desconectar</h2>
   <p>A qualquer momento, no app: Canais e contas → Sair da conta. O acesso também pode ser revogado nas configurações de cada plataforma.</p>
@@ -45,9 +59,19 @@
   <p>O que o app acessa e como os dados são tratados está na <a href="privacidade.html">Política de Privacidade</a>.</p>
 
   <h2>Contato</h2>
-  <p>oguigarciaph@gmail.com</p>
-
-  <p><a href="index.html">← ShortForge</a></p>
+  <p><a href="mailto:oguigarciaph@gmail.com">oguigarciaph@gmail.com</a></p>
 </main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/icon-192.png" alt="" width="28" height="28">ShortForge</a>
+    <nav aria-label="Rodapé">
+      <a href="privacidade.html">Política de Privacidade</a>
+      <a href="termos.html">Termos de Uso</a>
+      <a href="mailto:oguigarciaph@gmail.com">Contato</a>
+    </nav>
+    <small>© 2026 ShortForge</small>
+  </div>
+</footer>
 </body>
 </html>

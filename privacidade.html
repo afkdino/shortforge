@@ -3,45 +3,82 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShortForge · Privacidade</title>
-<style>
-  :root { --bg: #0f0f14; --fg: #ececf1; --muted: #a0a0ad; --accent: #cc92ff; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
-  h1 { font-size: 2rem; margin: 0 0 8px; }
-  h2 { font-size: 1.15rem; margin-top: 32px; }
-  p, li { color: var(--muted); }
-  a { color: var(--accent); }
-</style>
+<title>Política de Privacidade · ShortForge</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="alternate" hreflang="en" href="privacy.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<main>
+<header class="topo">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/icon-192.png" alt="" width="28" height="28">ShortForge</a>
+    <nav class="nav" aria-label="Páginas">
+      <a href="index.html">Início</a>
+      <a href="privacidade.html">Privacidade</a>
+      <a href="termos.html">Termos</a>
+    </nav>
+    <a class="idioma" href="privacy.html" hreflang="en">English</a>
+  </div>
+</header>
+
+<main class="doc">
   <h1>Política de Privacidade</h1>
-  <p>Última atualização: 4 de outubro de 2026.</p>
-  <p>O ShortForge é um aplicativo de computador para criadores de conteúdo editarem e publicarem os próprios vídeos. Esta política explica o que o app acessa e o que faz com isso.</p>
+  <p class="data">Última atualização: 8 de outubro de 2026.</p>
+  <p>O ShortForge é um aplicativo de computador (Windows) para criadores de conteúdo editarem e publicarem os próprios vídeos. Esta política explica o que o app acessa, para que usa e onde os dados ficam.</p>
 
   <h2>O que o app acessa</h2>
   <ul>
-    <li><strong>YouTube (API de Dados do YouTube):</strong> permissão de enviar vídeos (<code>youtube.upload</code>) e de ler as informações do canal (<code>youtube.readonly</code>: nome, foto, inscritos, número de vídeos e visualizações).</li>
-    <li><strong>TikTok:</strong> informações básicas do perfil (nome, foto e identificador) e publicação de vídeos no perfil ou envio pro rascunho, só dos vídeos que o usuário escolhe e confirma.</li>
+    <li><strong>YouTube (APIs do YouTube):</strong> enviar e agendar vídeos (<code>youtube.upload</code>); ler as informações do canal e dos vídeos, como nome, foto, inscritos, títulos, datas de publicação e contagens públicas (<code>youtube.readonly</code>); e ler os relatórios do YouTube Analytics do canal, como visualizações, retenção, tempo assistido, inscritos ganhos e fontes de tráfego (<code>yt-analytics.readonly</code>).</li>
+    <li><strong>TikTok:</strong> informações básicas do perfil, como nome, foto e identificador (<code>user.info.basic</code>), e publicação de vídeos no perfil ou envio para o rascunho (<code>video.publish</code>, <code>video.upload</code>), só dos vídeos que o usuário escolhe e confirma.</li>
     <li><strong>Instagram:</strong> informações básicas da conta e publicação de Reels.</li>
   </ul>
 
   <h2>Como os dados são usados</h2>
-  <p>Só pra enviar e agendar os vídeos que o usuário escolhe dentro do app e pra mostrar o nome e os números da conta na tela. Nada é publicado sem o usuário confirmar.</p>
+  <ul>
+    <li>Enviar e agendar os vídeos que o usuário escolhe dentro do app. Nada é publicado sem o usuário confirmar.</li>
+    <li>Mostrar na tela o nome, a foto e os números das contas conectadas.</li>
+    <li>Dar ao assistente de estratégia do app os números do canal (YouTube Analytics), para sugerir o que publicar e quando, e comparar os resultados de tentativas anteriores.</li>
+  </ul>
+  <p>O app não usa os dados para publicidade, não cria perfis do usuário e não os vende.</p>
 
-  <h2>Onde ficam e com quem são compartilhados</h2>
-  <p>Os tokens de acesso, os vídeos e as informações das contas ficam guardados <strong>só no computador do usuário</strong>. O ShortForge não tem servidor, não coleta dados, não vende nem compartilha nada com terceiros. Os dados só vão pras próprias plataformas (Google/YouTube, TikTok, Meta), no momento do envio.</p>
+  <h2>Onde os dados ficam</h2>
+  <p>Os tokens de acesso, os vídeos, as transcrições e os números das contas ficam guardados <strong>só no computador do usuário</strong>. O ShortForge não tem servidor e não recebe esses dados. As métricas do YouTube são atualizadas a cada poucas horas enquanto o app está aberto e ficam no computador até o usuário desconectar a conta ou apagar a pasta do app.</p>
 
-  <h2>Como remover o acesso</h2>
-  <p>No app: Canais e contas → Sair da conta (o app apaga o login guardado). Também dá pra revogar o acesso a qualquer momento nas permissões da conta Google (<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>), do TikTok e do Instagram.</p>
+  <h2>Com quem os dados são compartilhados</h2>
+  <ul>
+    <li><strong>Plataformas de vídeo:</strong> o vídeo e os textos da postagem vão para o YouTube, o TikTok ou o Instagram no momento do envio que o usuário confirmou.</li>
+    <li><strong>Serviços de IA:</strong> quando o usuário usa um recurso de IA, o necessário para aquele recurso é enviado ao serviço de IA usado pelo app, com a conta do próprio usuário: <strong>Google Gemini</strong> (trechos e quadros do vídeo, para editar os momentos) e <strong>Anthropic Claude</strong> (transcrição, textos das postagens e números do canal, para escrever textos e sugerir a estratégia). A transcrição de áudio e parte da análise rodam no próprio computador.</li>
+  </ul>
+  <p>Nenhum outro terceiro recebe dados do usuário.</p>
+
+  <h2>Como remover o acesso e os dados</h2>
+  <p>No app: Canais e contas → Sair da conta. O app apaga o login guardado daquela conta. O acesso também pode ser revogado a qualquer momento nas permissões da conta Google (<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>), do TikTok e do Instagram. Para apagar os vídeos, as transcrições e as métricas guardadas, basta apagar a pasta de trabalho do app no computador. Pedidos ou dúvidas podem ser enviados para o e-mail abaixo.</p>
 
   <h2>Serviços de terceiros</h2>
-  <p>O ShortForge usa os Serviços de API do YouTube. Ao usar o app, você também concorda com os <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>, e o uso dos dados segue a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+  <p>O ShortForge usa os Serviços de API do YouTube. Ao usar o app, você também concorda com os <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>, e o uso dos dados segue a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>. O uso do TikTok segue a <a href="https://www.tiktok.com/legal/privacy-policy">Política de Privacidade do TikTok</a>, e o do Instagram, a <a href="https://privacycenter.instagram.com/policy">Política de Privacidade do Instagram</a>.</p>
+
+  <h2>Mudanças nesta política</h2>
+  <p>Quando o app passar a acessar algo novo, esta página é atualizada antes, com a data no topo.</p>
 
   <h2>Contato</h2>
   <p><a href="mailto:oguigarciaph@gmail.com">oguigarciaph@gmail.com</a></p>
-  <p><a href="index.html">← ShortForge</a></p>
 </main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/icon-192.png" alt="" width="28" height="28">ShortForge</a>
+    <nav aria-label="Rodapé">
+      <a href="privacidade.html">Política de Privacidade</a>
+      <a href="termos.html">Termos de Uso</a>
+      <a href="mailto:oguigarciaph@gmail.com">Contato</a>
+    </nav>
+    <small>© 2026 ShortForge</small>
+  </div>
+</footer>
 </body>
 </html>

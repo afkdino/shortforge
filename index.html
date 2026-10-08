@@ -3,28 +3,227 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShortForge</title>
-<style>
-  :root { --bg: #0f0f14; --fg: #ececf1; --muted: #a0a0ad; --accent: #cc92ff; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
-  h1 { font-size: 2rem; margin: 0 0 8px; }
-  p, li { color: var(--muted); }
-  a { color: var(--accent); }
-</style>
+<title>ShortForge — das suas lives pros shorts</title>
+<meta name="description" content="ShortForge é um app de computador para criadores de conteúdo: encontra os melhores momentos das lives, edita os shorts e publica no YouTube, TikTok e Instagram do próprio criador.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icon-16.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta property="og:title" content="ShortForge">
+<meta property="og:description" content="Das suas lives pros shorts: encontra, edita e publica nas suas contas.">
+<meta property="og:image" content="https://afkdino.github.io/shortforge/assets/icon-512.png">
+<link rel="alternate" hreflang="en" href="en.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/icon-192.png" alt="" width="28" height="28">ShortForge</a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#recursos">Recursos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#telas">Telas</a>
+      <a href="#integracoes">Integrações</a>
+      <a href="#perguntas">Perguntas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="idioma" href="en.html" hreflang="en">English</a>
+  </div>
+</header>
+
 <main>
-  <h1>ShortForge</h1>
-  <p>ShortForge é um aplicativo de computador (Windows) para criadores de conteúdo: transforma as lives em vídeos curtos, encontra os melhores momentos, edita e publica nas contas do próprio criador.</p>
-  <h2>O que o app faz com a sua conta</h2>
-  <ul>
-    <li><strong>YouTube:</strong> envia e agenda os vídeos que você mesmo escolheu no app, e lê o nome e os números do seu canal pra mostrar na tela.</li>
-    <li><strong>TikTok:</strong> publica no seu perfil o vídeo que você escolheu, com a privacidade e as opções que você marcou na hora de postar (ou manda pro rascunho, pra você finalizar no TikTok).</li>
-    <li><strong>Instagram:</strong> publica os Reels que você escolheu, no horário que você marcou.</li>
-  </ul>
-  <p>Nada é publicado sem você clicar e confirmar dentro do app. Os logins e os vídeos ficam só no seu computador.</p>
-  <p><a href="privacidade.html">Política de Privacidade</a> · <a href="termos.html">Termos de Uso</a> · Contato: <a href="mailto:oguigarciaph@gmail.com">oguigarciaph@gmail.com</a></p>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="rotulo">App de computador para criadores</span>
+        <h1>Das suas lives pros shorts, <span class="marca">sem perder o melhor momento.</span></h1>
+        <p>O ShortForge transcreve a live no seu computador, encontra os momentos que viram short, edita no formato vertical e publica nas suas contas do YouTube, TikTok e Instagram, no horário que você escolher.</p>
+        <div class="acoes">
+          <a class="btn btn-accent" href="#como-funciona">Ver como funciona</a>
+          <a class="btn btn-sec" href="#integracoes">O que o app faz nas suas contas</a>
+        </div>
+        <div class="fatos">
+          <span class="chip">Windows</span>
+          <span class="chip">Vídeos ficam no seu PC</span>
+          <span class="chip">Nada é publicado sem você confirmar</span>
+        </div>
+      </div>
+      <img class="tela" src="assets/tela-criar.jpg" width="1600" height="841" alt="Tela Criar do ShortForge: título, descrição, hashtags e capa de uma postagem do YouTube">
+    </div>
+  </section>
+
+  <section id="recursos">
+    <div class="wrap">
+      <div class="cabeca">
+        <span class="rotulo">Recursos</span>
+        <h2>Tudo o que vai da live bruta até a postagem</h2>
+        <p>Um fluxo só, dentro de um app: você abre a gravação e sai com os vídeos agendados.</p>
+      </div>
+      <div class="grade">
+        <article class="card">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></span>
+          <h3>Acha os melhores momentos</h3>
+          <p>A transcrição roda na placa de vídeo do seu PC, palavra por palavra. A IA lê a live inteira e separa os trechos com gancho, reação e desfecho.</p>
+        </article>
+        <article class="card">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></svg></span>
+          <h3>Editor de shorts</h3>
+          <p>Timeline com cortes, legendas palavra por palavra, enquadramento na câmera, efeitos, sons e textos. Você ajusta tudo antes de exportar.</p>
+        </article>
+        <article class="card">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M7 4v16M17 4v16M2 9h5M2 15h5M17 9h5M17 15h5"/></svg></span>
+          <h3>VOD completo editado</h3>
+          <p>A live inteira em 16:9, sem os trechos mortos e sem o "já volto", pronta pro YouTube. Antes de codificar, o app pergunta onde salvar.</p>
+        </article>
+        <article class="card">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span>
+          <h3>Textos e capas por canal</h3>
+          <p>Título, descrição, legenda e hashtags no tom de cada canal, com capa tirada de um quadro do vídeo ou enviada por você.</p>
+        </article>
+        <article class="card">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+          <h3>Agenda e publicação</h3>
+          <p>Distribui as postagens pelos dias, no horário de cada canal. O YouTube agenda no próprio YouTube; TikTok e Instagram saem no horário marcado.</p>
+        </article>
+        <article class="card">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg></span>
+          <h3>Assistente de estratégia</h3>
+          <p>Conversa sobre o que publicar e quando, olhando os números reais do seu canal no YouTube, e anota o que foi testado pra comparar depois.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <div class="wrap">
+      <div class="cabeca">
+        <span class="rotulo">Como funciona</span>
+        <h2>Quatro etapas, você no controle de cada uma</h2>
+      </div>
+      <div class="passos">
+        <div class="passo"><h3>Importe a live</h3><p>Escolha o arquivo da gravação ou cole o link do VOD. Dá pra ignorar o começo (a tela de "já começa").</p></div>
+        <div class="passo"><h3>Escolha os momentos</h3><p>O app sugere os trechos com nota e motivo. Você decide quais viram short e ajusta no editor.</p></div>
+        <div class="passo"><h3>Crie textos e capas</h3><p>Revise o que foi escrito pra cada canal e rede, troque a capa e marque como revisado.</p></div>
+        <div class="passo"><h3>Agende e publique</h3><p>Marque data e hora e confirme. Cada envio mostra o andamento e o link do vídeo publicado.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="telas">
+    <div class="wrap">
+      <div class="cabeca">
+        <span class="rotulo">Telas</span>
+        <h2>Como é o app por dentro</h2>
+      </div>
+      <div class="galeria">
+        <figure><img class="tela" src="assets/tela-processamento.jpg" width="1600" height="841" alt="Tela Processamento: etapas da live e o VOD completo pronto" loading="lazy"><figcaption><strong>Processamento</strong>Transcrição, momentos e o VOD completo, com o andamento de cada etapa.</figcaption></figure>
+        <figure><img class="tela" src="assets/tela-agendar.jpg" width="1600" height="841" alt="Tela Agendar e publicar: data e hora de cada postagem" loading="lazy"><figcaption><strong>Agendar e publicar</strong>Data e hora por postagem, distribuição automática e envio com confirmação.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="integracoes">
+    <div class="wrap">
+      <div class="cabeca">
+        <span class="rotulo">Integrações</span>
+        <h2>O que o app faz nas suas contas</h2>
+        <p>Você conecta as suas próprias contas. O app só usa as permissões abaixo, e só quando você manda.</p>
+      </div>
+      <div class="redes">
+        <article class="card">
+          <h3>YouTube</h3>
+          <div class="escopos"><code>youtube.upload</code><code>youtube.readonly</code><code>yt-analytics.readonly</code></div>
+          <ul>
+            <li>Envia e agenda os vídeos que você escolheu, com título, descrição, tags e capa.</li>
+            <li>Mostra o nome, a foto e os números do canal.</li>
+            <li>Lê as métricas dos seus vídeos (views, retenção, tempo assistido) pro assistente de estratégia.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>TikTok</h3>
+          <div class="escopos"><code>user.info.basic</code><code>video.upload</code><code>video.publish</code></div>
+          <ul>
+            <li>Mostra o nome e a foto da conta conectada antes de cada postagem.</li>
+            <li>Publica no seu perfil o vídeo escolhido, com a privacidade que você seleciona na hora (sem opção pré-marcada), as interações permitidas (comentários, dueto, stitch) e a declaração de conteúdo comercial.</li>
+            <li>Ou manda pro rascunho, pra você finalizar no próprio TikTok.</li>
+          </ul>
+          <h4>Antes de postar</h4>
+          <p>O app consulta as opções da sua conta no TikTok, mostra a prévia do vídeo e só envia depois que você confirma. Depois do envio, o processamento pode levar alguns minutos pra aparecer no perfil.</p>
+        </article>
+        <article class="card">
+          <h3>Instagram</h3>
+          <div class="escopos"><code>leitura básica da conta</code><code>publicação de conteúdo</code></div>
+          <ul>
+            <li>Mostra o nome e a foto da conta.</li>
+            <li>Publica como Reels os vídeos que você escolheu, no horário que você marcou.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="dados">
+    <div class="wrap duas">
+      <div class="cabeca" style="margin-bottom:0">
+        <span class="rotulo">Seus dados</span>
+        <h2>Tudo fica no seu computador</h2>
+        <p>O ShortForge não tem servidor nem conta própria. Detalhes na <a href="privacidade.html">Política de Privacidade</a>.</p>
+      </div>
+      <ul class="lista-check">
+        <li>Vídeos, logins e números dos canais ficam guardados só no seu PC.</li>
+        <li>Os vídeos só vão pras plataformas no momento do envio que você confirmou.</li>
+        <li>Quando você usa um recurso de IA, só o necessário pra ele (o trecho da transcrição, quadros do vídeo ou os números do canal) vai pro serviço de IA usado (Google Gemini ou Anthropic Claude).</li>
+        <li>Desconectar é um clique: Canais e contas → Sair da conta. O app apaga o login guardado.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="perguntas">
+    <div class="wrap duas">
+      <div class="cabeca" style="margin-bottom:0">
+        <span class="rotulo">Perguntas</span>
+        <h2>Perguntas frequentes</h2>
+      </div>
+      <div>
+        <details><summary>O app publica alguma coisa sozinho?</summary><p>Não. Toda postagem passa por uma confirmação sua. No agendamento, você confirma na hora de agendar e o envio acontece no horário marcado.</p></details>
+        <details><summary>Meus vídeos sobem pra algum servidor do ShortForge?</summary><p>Não existe servidor do ShortForge. O vídeo vai direto do seu computador pro YouTube, TikTok ou Instagram.</p></details>
+        <details><summary>Em quais sistemas funciona?</summary><p>Windows, com placa de vídeo NVIDIA pra transcrição e codificação rápidas.</p></details>
+        <details><summary>Posso escolher a privacidade do vídeo no TikTok?</summary><p>Sim, e é obrigatório: o app mostra as opções que a sua conta permite e não marca nenhuma por padrão.</p></details>
+        <details><summary>Como removo o acesso do app às minhas contas?</summary><p>No app, em Canais e contas → Sair da conta. Também dá pra revogar nas configurações de segurança do Google, do TikTok e do Instagram.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" style="border-bottom:0">
+    <div class="wrap duas">
+      <div class="cabeca" style="margin-bottom:0">
+        <span class="rotulo">Contato</span>
+        <h2>Feito por um criador, pra criadores</h2>
+        <p>O ShortForge é desenvolvido por Dinozzera, criador de conteúdo que usa o app nos próprios canais. Dúvidas, pedidos de remoção de dados ou parcerias: <a href="mailto:oguigarciaph@gmail.com">oguigarciaph@gmail.com</a>.</p>
+      </div>
+      <div class="acoes" style="display:flex;gap:var(--space-3);flex-wrap:wrap">
+        <a class="btn btn-accent" href="mailto:oguigarciaph@gmail.com">Falar com a gente</a>
+        <a class="btn btn-sec" href="termos.html">Termos de Uso</a>
+      </div>
+    </div>
+  </section>
 </main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img src="assets/icon-192.png" alt="" width="28" height="28">ShortForge</a>
+    <nav aria-label="Rodapé">
+      <a href="privacidade.html">Política de Privacidade</a>
+      <a href="termos.html">Termos de Uso</a>
+      <a href="mailto:oguigarciaph@gmail.com">Contato</a>
+      <a href="en.html" hreflang="en">English</a>
+    </nav>
+    <small>© 2026 ShortForge</small>
+  </div>
+</footer>
 </body>
 </html>
