@@ -69,7 +69,7 @@ body {
   font: var(--text-lg)/1.6 var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: var(--color-accent-primary); text-underline-offset: 4px; }
 a:hover { color: var(--color-text-primary); }
 code, .mono { font-family: var(--font-mono); font-size: var(--text-sm); }
